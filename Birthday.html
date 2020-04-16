@@ -85,6 +85,19 @@
 
 </head>
 
+    
+<audio autoplay="autopaly" loop="loop" id="audios">
+    <source src="hbd.mp3" type="audio/mp3" />
+</audio>
+ 
+<script>
+document.addEventListener('WeixinJSBridgeReady', function() {
+    document.getElementById('audios').play()
+})
+ 
+</script>
+   
+    
 <body>
 <!--&lt;!&ndash;更改为你女朋友的头像&ndash;&gt;-->
 <div class="cs">
@@ -579,20 +592,10 @@
 </script>
 <!--//音乐可改-->
     
-<audio autoplay="autopaly" loop="loop" id="audios">
-    <source src="https://github.com/ayusharma/birthday/blob/master/hbd.mp3" type="audio/mp3" />
-</audio>
- 
-<script>
-document.addEventListener('WeixinJSBridgeReady', function() {
-    document.getElementById('audios').play()
-})
- 
-</script>
 
 <!--
 <audio autoplay="autoplay" loop="loop">
-    <source src="http://m10.music.126.net/20180509183512/5ae461e9a42675d782840bf139b05c60/ymusic/e492/ea7a/6a27/8799d19e52d9bbe3ae15febb03d7efdb.mp3" type="audio/mpeg">
+    <source src="hbd.mp3" type="audio/mpeg">
 </audio>
 -->
 </body>
